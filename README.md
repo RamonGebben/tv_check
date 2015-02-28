@@ -14,7 +14,7 @@ To my surprise there wasn't anything simple enough out there yet. That is why I 
 To install just run
 
 ```bash
-npm install TV-check --save
+npm install tv-check --save
 ```
 
 ### Usage
