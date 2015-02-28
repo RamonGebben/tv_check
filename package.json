@@ -4,7 +4,7 @@
   "description": "Checks if the user agent is from a television",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,20 @@
     "media"
   ],
   "author": "Ramon Gebben <ramon@ra-ge.net> (http://ra-ge.net)",
-  "license": "MIT",
+  "licenses": [
+  {
+    "type": "MIT",
+    "url": "https://github.com/RamonGebben/tv_check/blob/master/LICENSE"
+  }
+    ],
   "bugs": {
     "url": "https://github.com/RamonGebben/tv_check/issues"
   },
-  "homepage": "https://github.com/RamonGebben/tv_check"
+  "homepage": "https://github.com/RamonGebben/tv_check",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+  }
 }
