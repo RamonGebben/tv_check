@@ -14,7 +14,7 @@ To my surprise there wasn't anything simple enough out there yet. That is why I 
 To install just run
 
 ```bash
-npm install tv-check --save
+npm install tv_check --save
 ```
 
 ### Usage
@@ -23,7 +23,7 @@ By example with express
 
 ```javascript
 
-var tvCheck = require('tv-check');
+var tvCheck = require('tv_check');
 var express = require('express');
 var app = express();
 
